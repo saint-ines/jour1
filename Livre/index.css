@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'MVSans';
+    src: url('MV-Sans.woff2') format('woff2'),
+         url('MV-Sans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+header {
+    display: flex; /* Utilisation de Flexbox */
+    align-items: center; /* Alignement vertical */
+    justify-content: space-between; /* Espacement entre le logo et la navigation */
+    background-color: #4b8fe9;
+    padding: 15px 30px;
+}
+
+.logo img {
+    height: 200px; /* Ajuste la taille du logo */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.titre {
+    font-family: 'MVSans', sans-serif;
+    font-weight: bold;
+    color: rgb(18, 17, 17);
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>livre de recette</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  </head>
+  <style>
+  				body{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* La barre de navigation */
+nav{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  background-color: rgb(254, 254, 254);
+  color: #1b1a1a;
+  padding: 0 25px;
+}
+nav .gauche{
+  display: flex;
+  flex-wrap:wrap;
+  align-items: center;
+}
+nav .gauche img{
+  padding-top: 5px;
+}
+nav .gauche .onglets{
+  display: flex;
+  flex-wrap:wrap;
+  margin-left: 10px;
+}
+nav .gauche .onglets p{
+  margin-left: 10px;
+  cursor:pointer;
+  color: #090909;
+}
+nav .gauche .onglets p:hover{
+  color: #191919;
+}
+nav .droite{
+  display: flex;
+  flex-wrap:wrap;
+}
+nav .droite p{
+  margin-right: 10px;
+  cursor:pointer;
+}
+/* Fin de la barre de navigation */
+
+/* Lesrecettes*/
+.recette{
+  background-color: #191a1a;
+  padding: 25px;
+}
+.rechercher .section{
+  margin-bottom: 55px;
+}
+.recette .section h2{
+  color: #fff;
+}
+.films-et-series .section .list{
+  display:flex;
+  overflow-x: auto;
+} 
+.recette .section a{
+  padding-left: 5px;
+  transition: transform 0.25s;
+}
+.films-et-series .section a:hover{
+  transform:scale(1.05);
+}
+.films-et-series .section a img{
+  height: 140px;
+}
+/* Fin des films et séries */
+
+/* Pied de page */
+footer{
+  background-color: #000;
+  padding: 25px 100px;
+  color: #909191;
+}
+footer .colonnes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* Fin du pied de page */
+  </style>
+  <body>
+     
+    <nav>
+        
+      <div class="gauche">
+        <img src="delicious.png" alt="logo" height="100">
+        <div class="onglets">
+          <p>Accueil</p>
+          <p>Recettes</p>
+          <p>Ingredient</p>
+          <p>Mon livre</p>
+          <p>Ajouts récents</p>
+          <p>Ma liste</p>
+        </div>
+      </div>
+      <div class="droite">
+        <p><i class="fas fa-search"></i></p>
+        <p><i class="fas fa-bell"></i></p>
+        <p>Mon compte</p>
+      </div>
+      
+    </nav>
+    <!-- Fin de la barre de navigation -->
+    
+    <!-- Les recettes -->
+    <section class="les recetttes">
+      <!-- Les tendances -->
+      <section class="section rechercher">
+        <h2>Les plus recherchés</h2>
+        <div class="list">
+          <a href=""><img src="./recettes/burge.png" alt=""></a>
+            <a href=""><img src="./recettes/pizza.png" alt=""></a>
+            <a href=""><img src="./recettes/salade.png" alt=""></a>
+            <a href=""><img src="./recettes/sanwish.png" alt=""></a>
+            <a href=""><img src="./recettes/schawama.png" alt=""></a>
+            <a href=""><img src="./recettes/braise italien.png" alt=""></a>
+            <a href=""><img src="/recettes/crepes.png" alt=""></a>
+            <a href=""><img src="/recettes/gaufre choco.png" alt=""></a>
+            <a href=""><img src="/recettes/gaufre.png" alt=""></a>
+            <a href=""><img src="/recettes/pizza.png" alt=""></a> 
+        </div>
+      </section>
+      <!-- Fin des tendances -->
+      
+    <!-- Les meilleur recettes -->
+      <section class="section series-violentes">
+        <h2>les meilleur recettes</h2>
+        <div class="list">
+          <a href=""><img src="/recettes/pome sauter.png" alt=""></a>
+        <a href=""><img src="/recettes/salade.png" alt=""></a>
+        <a href=""><img src="/recettes/sanwish.png" alt=""></a>
+        <a href=""><img src="/recettes/sauce.png" alt=""></a>
+        <a href=""><img src="/recettes/schawama.png" alt=""></a>
+        <a href=""><img src="/recettes/shawama.png" alt=""></a>
+        </div>
+      </section>
+      <!-- recettes pour sportif -->
+      
+      <!-- Films d'action et aventures -->
+      <section class="section action-aventure">
+        <h2>recettes pour sportifs</h2>
+        <div class="list">
+          <a href=""><img src="" alt=""></a>
+        <a href=""><img src="" alt=""></a>
+        <a href=""><img src="" alt=""></a>
+        <a href=""><img src="" alt=""></a>
+        <a href=""><img src="" alt=""></a>
+        <a href=""><img src="" alt=""></a> 
+      </section>
+      <!-- Fin des recettes pour sportifs-->
+      
+    </section>
+    <!-- Fin des recettes -->
+      
+    <!-- Pied de page -->
+    <footer>
+      <h5>Des questions ? Appelez le 0465 45 00 00</h5>
+      <div class="colonnes">
+        <div class="colonne">
+          <p>FAQ</p>
+          <p>Relations Investisseurs</p>
+          <p>Modes d'application</p>
+          <p>Mentions légales</p>
+          <p>Recettes conseillée</p>
+        </div>
+        <div class="colonne">
+          <p>Centre d'aide</p>
+          <p>Relations Investisseurs</p>
+          <p>Modes de lecture</p>
+          <p>Recommandation par un Medecin</p>
+          <p>Temps de cuision</p>
+        </div>
+        <div class="colonne">
+          <p>FAQ</p>
+          <p>Recrutement</p>
+          <p>Conditions d'utilisation</p>
+          <p>Nous contacter</p>
+        </div>
+        <div class="colonne">
+          <p>Compte</p>
+          <p>Utiliser des cartes cadeaux</p>
+          <p>Confidentialité</p>
+        </div>
+      </div>
+      <p>Belgique, France</p>
+    </footer>
+      <!-- Fin du pied de page -->
+  </body>
+</html>
